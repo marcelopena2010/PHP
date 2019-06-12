@@ -1,0 +1,32 @@
+/*RESET*/
+*{margin:0; padding:0; display:block;}
+title{display:none;}
+
+/*FORM*/
+form{width:600px; margin:0 auto; margin-top:100px;}
+form label{display:block; width:490px; float:left; margin:0 0 10px 50px;}
+form label span{display:block; width:200px;}
+form label span strong{display:inline;}
+form label span, input, textarea{float:left;}
+form label input{width:250px;}
+form label textarea{width:250px; height:100px;}
+fieldset{padding:10px;}
+legend{width:400px; text-align:center; font:bold 20px Georgia, "Times New Roman", Times, serif; margin-left:90px; color:#06C; border:1px dotted #000; padding:2px 5px; background:#0FF;}
+
+/*BOTAO*/
+#enviar_btn{width:200px; float:left; margin:0 0 0 253px;}
+
+/*CLASSES*/
+form label.espaco{margin-top:20px;}
+
+/*COMENTARIOS*/
+#comentarios{width:600px; margin:5px 0 0 0; margin:0 auto;}
+
+.comentario{width:500px; border:1px solid #666; margin:0 auto; height:200px; background:#09C; margin-bottom:10px;}
+
+.titulo_comentario{width:480px; height:25px; margin:10px auto; background:#333; text-align:center; padding-top:5px; font:bold 17px georgia; color:white;}
+
+.comentario_comentario{width:450px; height:120px; background:#092248; margin:0 auto; font:18px "times new roman"; color:#BBB; text-align:left; padding:10px 15px;}
+
+*.erro{width:300px; margin:0 auto; padding:2px 5px; border:1px dotted black; color:white; background:#069; text-align:center;}
+*.sucesso{width:300px; margin:0 auto; padding:2px 5px; border:1px dotted black; color:#069; background:#ccc; text-align:center;}
